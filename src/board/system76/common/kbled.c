@@ -4,7 +4,7 @@
 #include <common/macro.h>
 
 // clang-format off
-static uint8_t LEVEL_I = 1;
+static uint8_t LEVEL_I = 5;
 static const uint8_t __code LEVELS[] = {
     48,
     72,
@@ -14,7 +14,7 @@ static const uint8_t __code LEVELS[] = {
     255
 };
 
-static uint8_t COLOR_I = 0;
+static uint8_t COLOR_I = 2;
 static const uint32_t __code COLORS[] = {
     0xFFFFFF,
     0x0000FF,

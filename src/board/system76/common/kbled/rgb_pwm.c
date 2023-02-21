@@ -10,8 +10,8 @@ void kbled_init(void) {
 
 void kbled_reset(void) {
     // Set brightness and color
-    kbled_set_color(0xFFFFFF);
-    kbled_set(0x00);
+    kbled_set_color(0xFF0000);
+    kbled_set(0xFF);
 }
 
 uint8_t kbled_get(void) {
